@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.activities.AuthActivity"
+        android:orientation="vertical"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_160sdp"
+            android:src="@drawable/cocacola" />
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/ActivityHomeBottomNav"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorApp"
+            app:itemIconTint="@drawable/bottom_nav_txt_colar"
+            app:itemTextColor="@drawable/bottom_nav_txt_colar"
+            app:menu="@menu/menu_navigation"
+            android:defaultFocusHighlightEnabled="true"
+            />
+        <FrameLayout
+            android:id="@+id/auth_activity_frameLayout_container"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:layout_gravity="start|bottom"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:background="@color/colorApp"
+            android:text="  ALL RIGHTS RESERVED"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/colorText"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"/>
+
+    </LinearLayout>
+</layout>

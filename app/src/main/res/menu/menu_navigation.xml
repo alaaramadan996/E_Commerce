@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/BottomNavHomeCondition"
+        android:icon="@drawable/condition"
+        android:title="الشروط و الاجكام"/>
+    <item
+        android:id="@+id/BottomNavHomeContactWithUs"
+        android:icon="@drawable/conact"
+        android:title="تواصل معنا"
+        />
+    <item
+        android:id="@+id/BottomNavHomeNewAccount"
+        android:icon="@drawable/new_acount"
+        android:title="حساب جديد"
+        />
+    <item
+        android:id="@+id/BottomNavHomeLogin"
+        android:icon="@drawable/loginicon"
+        android:title="تسجيل الدخول"
+
+        />
+
+
+
+
+
+</menu>
